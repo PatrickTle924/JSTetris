@@ -1,0 +1,15 @@
+.grid {
+    height: 400px;
+    width: 200px;
+    background-color: yellow;
+
+    /*Causes the grid boxes, the inner flex items to stack and wrap*/
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
